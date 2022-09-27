@@ -1,0 +1,89 @@
+body {
+    font-family: 'PT Sans Narrow', sans-serif;
+    color: white;
+    text-align: center;
+    background-color: dimgray;
+  }
+  
+  .btn-group .button {
+    float: left;
+  }
+  
+  .btn-group .button:not(:last-child) {
+    border-right: none;
+  }
+  
+  button {
+    background-color: white;
+    border: none;
+    color: black;
+    padding: 7px 14px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 4px 2px;
+    border-radius: 4px;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+  }
+  
+  button:hover {
+    box-shadow: 0 3px 4px 0 rgba(0,0,0,0.24), 0 4px 12px 0 rgba(0,0,0,0.19);
+  }
+  
+  button:active {
+    background-color: lightgray;
+    transform: translateY(2px);
+  }
+  
+  a:link {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:visited {
+    color: white;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  
+  a:hover {
+    color: white;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  
+  a:active {
+    color: lightgray;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  
+  .edit-container:after, .edit-container:before {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  #edit-container {
+      padding: 16px;
+      background-color: lightgray;
+  }
+  
+  .outer-flex {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 16px;
+    margin: 16px;
+    background-color: gray;
+  }
+  
+  .inner-flex {
+      background-color: darkgray;
+      padding: 16px;
+      margin: 4px;
+  }

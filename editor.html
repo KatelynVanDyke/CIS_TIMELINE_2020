@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>CIS Timeline Editor</title>
+    <link rel="stylesheet" type="text/css" href="/css/style.css">
+  </head>
+  <body>
+    <h1>IEEE CIS Timeline Editor</h1>
+    <iframe src='https://cdn.knightlab.com/libs/timeline3/latest/embed/index.html?source=1GPh2t6OjixLJv3BSZmsJhzdNA7O5NNNJZvbn8UgXUso&font=Default&lang=en&start_at_end=true&initial_zoom=2&height=650' width='100%' height='650' webkitallowfullscreen mozallowfullscreen allowfullscreen frameborder='0'></iframe>
+    <div class="button-group">
+      <button onclick="loadTitleSlideEditor()">Edit Title Slide</button>
+      <button onclick="loadErasEditor()">Edit Eras</button>
+      <button onclick="loadEventsEditor()">Edit Events</button>
+    </div>
+    <p style="clear:both"></p>
+    <div id="edit-container">
+      <p id="editor-message">Select a category to edit!</p>
+    </div>
+    <script async defer src="https://apis.google.com/js/api.js"></script>
+    <script src="/js/titleSlideEditor.js"></script>
+    <script src="/js/erasEditor.js"></script>
+    <script src="/js/eventsEditor.js"></script>
+  </body>
+</html>
